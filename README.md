@@ -1,6 +1,6 @@
 ## xeko_result
 
-A utility for Deno that helps code fail gracefully.
+Result<T> is the type used for returning and propagating errors
 
 What makes this implementation of result different from others is that it does
 not wrap the value of the object in a class like this
