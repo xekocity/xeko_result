@@ -1,4 +1,4 @@
-import Result from "./types/result.ts";
+import Result from "./types/Result.ts";
 import Ok from "./types/Ok.ts";
 import isError from "./isError.ts";
 

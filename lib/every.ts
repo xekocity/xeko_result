@@ -1,13 +1,14 @@
 import isError from "./isError.ts";
-import Result from "./types/result.ts";
+import Result from "./types/Result.ts";
 
 export default function every<T>(values: Array<Result<T>>): Result<Array<T>> {
-  let error: Error | undefined;
-  for (const value of values) {
-    if (isError(value)) {
-      error = value;
-      break;
+    let error: Error | undefined;
+    for (const value of values) {
+        if (isError(value)) {
+            error = value;
+            break;
+        }
     }
-  }
-  return error === undefined ? values as Result<Array<T>> : error;
+    return error === undefined ? values as Result<Array<T>> : error;
 }
+      

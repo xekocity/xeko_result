@@ -1,4 +1,4 @@
-import Result from './types/result.ts';
+import Result from './types/Result.ts';
 
 export default function toResult<T>(
 	{ value, error }: { value: T | null | undefined; error: Error },

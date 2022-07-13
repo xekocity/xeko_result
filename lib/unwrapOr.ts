@@ -1,4 +1,4 @@
-import Result from "./types/result.ts";
+import Result from "./types/Result.ts";
 import isOk from "./isOk.ts";
 
 export default function unwrapOr<T, U>(result: Result<T>, u: U): T | U {

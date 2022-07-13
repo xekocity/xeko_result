@@ -1,5 +1,5 @@
 import { assertEquals } from "https://deno.land/std@0.146.0/testing/asserts.ts";
-import unwrapOr from "./unwrapOr.ts";
+import unwrapOr from "../lib/unwrapOr.ts";
 
 Deno.test("unwrapOr test", () => {
 	assertEquals(

@@ -1,5 +1,5 @@
 import { assertEquals } from "https://deno.land/std@0.146.0/testing/asserts.ts";
-import toResult from "./toResult.ts";
+import toResult from "../lib/toResult.ts";
 
 Deno.test("toResult test", () => {
 	assertEquals(
